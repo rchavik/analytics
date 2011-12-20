@@ -1,0 +1,18 @@
+Analytics Plugin Version 0.1
+-------------------------
+
+Google Analytics plugin for Croogo
+
+Configuration
+-------------
+
+1. Activate the plugin
+
+2. Enter your Web Propery ID and domain name in Settings -> Site
+
+Requirements
+------------
+
+Croogo 1.4 - http://croogo.org/
+
+-- rchavik
