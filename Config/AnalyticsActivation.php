@@ -27,7 +27,8 @@ class AnalyticsActivation {
 	}
 
 	public function onDeactivation($controller) {
-		$controller->Setting->deleteKey('Site.Analytics');
+		$controller->Setting->deleteKey('Site.Analytics.webPropertyId');
+		$controller->Setting->deleteKey('Site.Analytics.domain');
 	}
 
 }
