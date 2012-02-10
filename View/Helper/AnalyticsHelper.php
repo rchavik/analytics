@@ -2,7 +2,7 @@
 
 class AnalyticsHelper extends AppHelper {
 
-	public $helpers = array('Js');
+	public $helpers = array('Html');
 
 	public function beforeRender() {
 		$webPropertyId = Configure::read('Site.Analytics.webPropertyId');
@@ -21,7 +21,7 @@ class AnalyticsHelper extends AppHelper {
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();", $identString);
 
-		$this->Js->buffer($script, true);
+		$this->Html->scriptBlock($script, array('inline' => false));
 	}
 
 }
