@@ -1,0 +1,16 @@
+{
+	"name": "rchavik/analytics",
+	"type": "croogo-plugin",
+	"description": "Analytics Helper Croogo Plugin",
+	"keywords": ["cakephp","croogo","google analytics"],
+	"homepage": "https://github.com/rchavik/analytics",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rachman Chavik"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
