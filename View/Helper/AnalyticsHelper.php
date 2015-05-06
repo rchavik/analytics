@@ -4,7 +4,7 @@ class AnalyticsHelper extends AppHelper {
 
 	public $helpers = array('Html');
 
-	public function beforeRender() {
+	public function beforeRender($viewFile) {
 		$webPropertyId = Configure::read('Site.Analytics.webPropertyId');
 		if (empty($webPropertyId)) {
 			return;
