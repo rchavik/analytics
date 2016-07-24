@@ -1,4 +1,4 @@
-Analytics Plugin Version 0.1
+Analytics Plugin Version 0.2
 -------------------------
 
 Google Analytics plugin for Croogo
@@ -13,6 +13,6 @@ Configuration
 Requirements
 ------------
 
-Croogo 1.4 - http://croogo.org/
+Croogo 3.0 - http://croogo.org/
 
 -- rchavik
