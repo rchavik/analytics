@@ -1,6 +1,8 @@
 <?php
 
-class AnalyticsActivation
+namespace Analytics\Config;
+
+class PluginActivation
 {
 
     public function beforeActivation()
