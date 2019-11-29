@@ -17,7 +17,7 @@
     "require": {
         "php": ">=5.5.9",
         "cakephp/cakephp": "~3.2",
-        "croogo/croogo": "3.0.x-dev"
+        "croogo/croogo": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
