@@ -21,7 +21,7 @@ class PluginActivation
 
         $settings->write('Site.Analytics.measurementId', '', [
             'editable' => 1,
-            'title' => 'Web Property ID',
+            'title' => 'Measurement ID',
             'description' => 'Enter your site Measurement ID',
         ]);
 
