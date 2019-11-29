@@ -1,16 +1,36 @@
 {
-	"name": "rchavik/analytics",
-	"type": "croogo-plugin",
-	"description": "Analytics Helper Croogo Plugin",
-	"keywords": ["cakephp","croogo","google analytics"],
-	"homepage": "https://github.com/rchavik/analytics",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Rachman Chavik"
-		}
-	],
-	"require": {
-		"composer/installers": "~1.0"
-	}
+    "name": "rchavik/analytics",
+    "type": "cakephp-plugin",
+    "description": "Analytics Helper Croogo Plugin",
+    "keywords": [
+        "cakephp",
+        "croogo",
+        "google analytics"
+    ],
+    "homepage": "https://github.com/rchavik/analytics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rachman Chavik"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": "~3.2",
+        "croogo/croogo": "3.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Analytics\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Analytics\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
 }
