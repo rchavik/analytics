@@ -16,13 +16,13 @@ class PluginActivation
         $settings->write('Site.Analytics.webPropertyId', '', [
             'editable' => 1,
             'title' => 'Web Property ID',
-            'description' => 'Enter your site Web Property ID',
+            'description' => 'Enter your site Web Property ID (mutually exclusive to Measurement ID)',
         ]);
 
         $settings->write('Site.Analytics.measurementId', '', [
             'editable' => 1,
             'title' => 'Measurement ID',
-            'description' => 'Enter your site Measurement ID',
+            'description' => 'Enter your site Measurement ID (mutually exclusive to Web Property Id)',
         ]);
 
         $settings->write('Site.Analytics.domain', '', [
