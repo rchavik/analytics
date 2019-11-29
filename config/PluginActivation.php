@@ -19,6 +19,12 @@ class PluginActivation
             'description' => 'Enter your site Web Property ID',
         ]);
 
+        $settings->write('Site.Analytics.measurementId', '', [
+            'editable' => 1,
+            'title' => 'Web Property ID',
+            'description' => 'Enter your site Measurement ID',
+        ]);
+
         $settings->write('Site.Analytics.domain', '', [
             'editable' => 1,
             'title' => 'Primary Domain',
